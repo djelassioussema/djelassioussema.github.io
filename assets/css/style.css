@@ -211,6 +211,26 @@ article {
   font-weight: bold; /* Optional: Make the text bold */
 }
 
+/* Add this CSS code to your existing styles or create a new CSS file */
+.download-link {
+  padding: 10px 15px;
+  background-color: #3498db; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px; /* Adjust the top margin as needed */
+  float: right;
+}
+
+.title-wrapper {
+  position: relative;
+}
+
+/* Optional: Add some styles to make it look more interactive on hover */
+.download-link:hover {
+  background-color: #2980b9; /* Change the background color on hover as needed */
+}
+
 .timeline-item {
   position: relative;
 }
