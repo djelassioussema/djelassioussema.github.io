@@ -206,6 +206,58 @@ article {
   z-index: -1;
 }
 
+.highlight {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.company-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  color: white; /* Set the font color to white */
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.timeline-date {
+  display: block;
+  margin-bottom: 10px; /* Adjust as needed for spacing */
+  color: white; /* Set the font color to white */
+}
+
+.duration {
+  font-weight: bold;
+  color: white; /* Set the font color to white */
+}
+
+.timeline-text {
+  color: white; /* Set the font color to white */
+}
+
+.timeline-text ul {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  list-style: none; /* Remove default list style */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.timeline-text li {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  content: "•"; /* Add custom bullet point */
+  margin-right: 8px; /* Adjust spacing between bullet point and text */
+}
+
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
