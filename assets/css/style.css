@@ -210,7 +210,22 @@ article {
   font-size: 1.2em; /* Adjust the font size as needed */
   font-weight: bold; /* Optional: Make the text bold */
 }
+#top-svg {
+  width: 18%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top 0.3s ease; /* Add smooth transition effect */
+}
 
+#bottom-svg {
+  width: 18%;
+  position: fixed;
+  bottom: -50px; /* Initially position off-screen */
+  right: 0;
+  transition: bottom 0.3s ease; /* Add smooth transition effect */
+
+}
 /* Add this CSS code to your existing styles or create a new CSS file */
 .download-link {
   padding: 10px 15px;
@@ -245,6 +260,7 @@ article {
 
 .company-name {
   font-weight: bold;
+  color: white; 
 }
 
 .timeline-date {
