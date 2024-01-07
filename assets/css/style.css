@@ -832,18 +832,19 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: calc(33.33% - 10px);
   scroll-snap-align: start;
 }
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0); /* Set to 0 to show real color by default */
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
-
+.clients-item:hover img {
+  filter: grayscale(1); /* Apply grayscale on hover */
+}
 
 
 
@@ -1327,7 +1328,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
 
 
 
@@ -1568,7 +1568,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
 
 
 
@@ -1824,7 +1823,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* clients */
 
-  .clients-item { min-width: calc(25% - 38px); }
 
 
 
